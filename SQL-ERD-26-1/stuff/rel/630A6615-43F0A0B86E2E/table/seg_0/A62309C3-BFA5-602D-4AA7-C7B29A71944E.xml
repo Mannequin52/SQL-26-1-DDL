@@ -1,0 +1,63 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="A62309C3-BFA5-602D-4AA7-C7B29A71944E" name="INDIVIDUALNI_KUPAC">
+<createdBy>Korisnik</createdBy>
+<createdTime>2023-01-26 11:45:57 UTC</createdTime>
+<generatorID>DF133C9D-F2FF-164A-1AC0-4791482EB038</generatorID>
+<ownerDesignName>stuff</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_kupac" id="2F4E1963-F5AD-9159-C12D-20033248F4CE">
+<createdBy>Korisnik</createdBy>
+<createdTime>2023-01-26 11:45:57 UTC</createdTime>
+<generatorID>354C9E61-132D-BC3F-B49E-A82B8B828748</generatorID>
+<ownerDesignName>stuff</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="80407BAE-F026-FAD1-FD81-636C5D563DEE" referredColumn="AC2756D7-9338-1949-4D1A-DB7D0B1E418A"/>
+</associations>
+</Column>
+<Column name="broj_kartice" id="B2B92D8C-7699-86D2-2748-C6D475381800">
+<createdBy>Korisnik</createdBy>
+<createdTime>2023-01-26 11:45:57 UTC</createdTime>
+<generatorID>07231B7B-A928-6D9D-5826-E7C242355C24</generatorID>
+<ownerDesignName>stuff</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="0D18C7E2-5888-15BB-1A32-4A971BEC1D33" name="INDIVIDUALNI_KUPAC_PK">
+<createdBy>Korisnik</createdBy>
+<createdTime>2023-01-26 11:45:57 UTC</createdTime>
+<generatorID>758E35D2-434A-90D1-5DB2-4F80D1A6DC00</generatorID>
+<ownerDesignName>stuff</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2F4E1963-F5AD-9159-C12D-20033248F4CE"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="B1A6B38B-A2FD-D563-BD9F-63A0843EE2C2" name="INDIVIDUALNI_KUPAC_KUPAC_FK">
+<createdBy>Korisnik</createdBy>
+<createdTime>2023-01-26 11:45:57 UTC</createdTime>
+<generatorID>47AFCEE0-8708-709A-AA31-F548EAD9D026</generatorID>
+<ownerDesignName>stuff</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2F4E1963-F5AD-9159-C12D-20033248F4CE"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

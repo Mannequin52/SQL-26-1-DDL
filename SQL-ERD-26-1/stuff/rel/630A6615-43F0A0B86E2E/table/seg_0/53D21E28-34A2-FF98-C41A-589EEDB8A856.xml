@@ -1,0 +1,100 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="53D21E28-34A2-FF98-C41A-589EEDB8A856" name="PREDSTAVNIK">
+<createdBy>Korisnik</createdBy>
+<createdTime>2023-01-26 11:45:57 UTC</createdTime>
+<generatorID>8C1FCEF7-2938-D09D-75AB-37286D8492B0</generatorID>
+<ownerDesignName>stuff</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_kupac" id="8EFB4FAF-B5CD-C89A-EAB7-1F9772398E63">
+<createdBy>Korisnik</createdBy>
+<createdTime>2023-01-26 11:45:57 UTC</createdTime>
+<generatorID>354C9E61-132D-BC3F-B49E-A82B8B828748</generatorID>
+<ownerDesignName>stuff</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="33C62EBA-96C7-FAA0-558C-93821181F1C5" referredColumn="AC2756D7-9338-1949-4D1A-DB7D0B1E418A"/>
+</associations>
+</Column>
+<Column name="tim" id="32839535-E386-0664-E180-A9F107D0769A">
+<createdBy>Korisnik</createdBy>
+<createdTime>2023-01-26 11:45:57 UTC</createdTime>
+<generatorID>AAF3B955-60D1-8593-FA21-8C9DCBCB6E5C</generatorID>
+<ownerDesignName>stuff</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="EKIPA_ID_ekipa" id="C6377FB1-3C75-F2BF-CE06-622D5E77586F">
+<createdBy>Korisnik</createdBy>
+<createdTime>2023-01-26 11:45:57 UTC</createdTime>
+<generatorID>EF183163-1F6A-FF20-AC7C-938A0E01882F</generatorID>
+<ownerDesignName>stuff</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="D3321369-E98B-A105-8C2A-306E2AFE46E7" referredColumn="9FE3C03F-274D-D89B-13FA-FA4A63CE24DB"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="5CBC62DB-2510-9CFC-E02D-22F2C7314F0D" name="PREDSTAVNIK_PK">
+<createdBy>Korisnik</createdBy>
+<createdTime>2023-01-26 11:45:57 UTC</createdTime>
+<generatorID>758E35D2-434A-90D1-5DB2-4F80D1A6DC00</generatorID>
+<ownerDesignName>stuff</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8EFB4FAF-B5CD-C89A-EAB7-1F9772398E63"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="02E25D1F-6B71-6708-E20F-922813E67732" name="PREDSTAVNIK__IDX">
+<createdBy>Korisnik</createdBy>
+<createdTime>2023-01-26 11:45:57 UTC</createdTime>
+<ownerDesignName>stuff</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>A2BCB04E-1BE8-C105-1454-706D901B95D3</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="C6377FB1-3C75-F2BF-CE06-622D5E77586F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="252BD6B1-AD43-E81B-6FDE-C0D4D9DF6D1A" name="PREDSTAVNIK_KUPAC_FK">
+<createdBy>Korisnik</createdBy>
+<createdTime>2023-01-26 11:45:57 UTC</createdTime>
+<generatorID>310800F5-F914-4073-3B82-C46343785BD4</generatorID>
+<ownerDesignName>stuff</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8EFB4FAF-B5CD-C89A-EAB7-1F9772398E63"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="9709EEB6-DAF9-2198-9044-830466AC1052" name="PREDSTAVNIK_EKIPA_FK">
+<createdBy>Korisnik</createdBy>
+<createdTime>2023-01-26 11:45:57 UTC</createdTime>
+<generatorID>A2BCB04E-1BE8-C105-1454-706D901B95D3</generatorID>
+<ownerDesignName>stuff</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C6377FB1-3C75-F2BF-CE06-622D5E77586F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

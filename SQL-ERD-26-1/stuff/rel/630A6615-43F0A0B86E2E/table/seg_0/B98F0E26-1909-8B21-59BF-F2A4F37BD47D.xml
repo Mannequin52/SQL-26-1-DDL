@@ -1,0 +1,121 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="B98F0E26-1909-8B21-59BF-F2A4F37BD47D" name="POVIJEST_CIJENA">
+<createdBy>Korisnik</createdBy>
+<createdTime>2023-01-26 11:45:57 UTC</createdTime>
+<generatorID>1B889343-289E-EA1D-3316-814D04DB22C2</generatorID>
+<ownerDesignName>stuff</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="datum_promjene" id="4A9CDBF7-7DCD-BF6F-AD49-99E63EBB43EC">
+<createdBy>Korisnik</createdBy>
+<createdTime>2023-01-26 11:45:57 UTC</createdTime>
+<generatorID>3D955150-F5DD-200A-B3B3-F9CC67299653</generatorID>
+<ownerDesignName>stuff</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="vrijeme_promjene" id="A75FBC0B-5A13-C5F2-4A99-DD716AD5ADAC">
+<createdBy>Korisnik</createdBy>
+<createdTime>2023-01-26 11:45:57 UTC</createdTime>
+<generatorID>C972EB6A-172E-9F00-7D05-40F5938C8566</generatorID>
+<ownerDesignName>stuff</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT014</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="cijena" id="D291BC72-D617-1876-E6E2-81D410F68AD2">
+<createdBy>Korisnik</createdBy>
+<createdTime>2023-01-26 11:45:57 UTC</createdTime>
+<generatorID>91AA9665-7066-C00E-D4E4-530DEA10E79E</generatorID>
+<ownerDesignName>stuff</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="datum_isteka" id="5A780EF6-4141-9EBC-0913-C297AB8239B1">
+<createdBy>Korisnik</createdBy>
+<createdTime>2023-01-26 11:45:57 UTC</createdTime>
+<generatorID>47755C96-EE08-ACE8-E3C9-32C338144916</generatorID>
+<ownerDesignName>stuff</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="vrijeme_isteka" id="73613DD7-E196-BB83-C730-F05F8402F7A1">
+<createdBy>Korisnik</createdBy>
+<createdTime>2023-01-26 11:45:57 UTC</createdTime>
+<generatorID>8099072D-8A31-5071-950F-BFA2813FE38D</generatorID>
+<ownerDesignName>stuff</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT014</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ARTIKL_ID_artikl" id="ED90ABF2-B163-0555-D39B-AA9EED87FDF2">
+<createdBy>Korisnik</createdBy>
+<createdTime>2023-01-26 11:45:57 UTC</createdTime>
+<generatorID>E75B34AD-D007-AB7B-81F4-F4E4B4D14CD8</generatorID>
+<ownerDesignName>stuff</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="E1806922-DF83-28FB-4BCD-009F48DDE299" referredColumn="ABD7E7CB-6EEF-C2CA-8E51-C80635706D4F"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="7036F866-E3B6-1269-0945-13B82B11303A" name="POVIJEST_CIJENA_PK">
+<createdBy>Korisnik</createdBy>
+<createdTime>2023-01-26 11:45:57 UTC</createdTime>
+<generatorID>417E5E80-BCC4-C89C-F7C9-4DC4AA186FCE</generatorID>
+<ownerDesignName>stuff</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4A9CDBF7-7DCD-BF6F-AD49-99E63EBB43EC"/>
+<colUsage columnID="ED90ABF2-B163-0555-D39B-AA9EED87FDF2"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="36F66A9D-54D2-52ED-3C9C-72B32EF96B67" name="POVIJEST_CIJENA_vrijeme_promjene_UN">
+<createdBy>Korisnik</createdBy>
+<createdTime>2023-01-26 11:45:57 UTC</createdTime>
+<generatorID>0DCCFF9A-B0D1-19B7-DEC3-B7B07DA63096</generatorID>
+<ownerDesignName>stuff</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A75FBC0B-5A13-C5F2-4A99-DD716AD5ADAC"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="8395F622-64F4-7320-6D07-0F4D0EDBB390" name="POVIJEST_CIJENA_ARTIKL_FK">
+<createdBy>Korisnik</createdBy>
+<createdTime>2023-01-26 11:45:57 UTC</createdTime>
+<generatorID>0305B37A-2D40-3F7D-933B-9905268031AB</generatorID>
+<ownerDesignName>stuff</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="ED90ABF2-B163-0555-D39B-AA9EED87FDF2"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

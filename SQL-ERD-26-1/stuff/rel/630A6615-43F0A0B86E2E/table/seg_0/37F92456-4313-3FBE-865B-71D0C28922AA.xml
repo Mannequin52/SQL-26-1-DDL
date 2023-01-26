@@ -1,0 +1,111 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="37F92456-4313-3FBE-865B-71D0C28922AA" name="EKIPA">
+<createdBy>Korisnik</createdBy>
+<createdTime>2023-01-26 11:45:57 UTC</createdTime>
+<generatorID>B691EA12-4006-3102-42E8-AC91C5AB7F29</generatorID>
+<ownerDesignName>stuff</ownerDesignName>
+<abbreviation>EKP</abbreviation>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_ekipa" id="9FE3C03F-274D-D89B-13FA-FA4A63CE24DB">
+<createdBy>Korisnik</createdBy>
+<createdTime>2023-01-26 11:45:57 UTC</createdTime>
+<generatorID>24D7F31B-5759-5971-F4F0-D49E05179793</generatorID>
+<ownerDesignName>stuff</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ime" id="6BC03468-BA89-CDD8-F263-D309FDB1547A">
+<createdBy>Korisnik</createdBy>
+<createdTime>2023-01-26 11:45:57 UTC</createdTime>
+<generatorID>6E9E972F-97EE-DC93-B124-BC545B241C3D</generatorID>
+<ownerDesignName>stuff</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="broj_igraca" id="64C2A50F-25FD-CB39-C04F-A4978736227D">
+<createdBy>Korisnik</createdBy>
+<createdTime>2023-01-26 11:45:57 UTC</createdTime>
+<generatorID>84550C0D-4202-4CB3-9459-C6C21CF1B98D</generatorID>
+<ownerDesignName>stuff</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="popust" id="875243B4-0CA2-73F3-459F-D62EA835E6E1">
+<createdBy>Korisnik</createdBy>
+<createdTime>2023-01-26 11:45:57 UTC</createdTime>
+<generatorID>9BC01735-0502-DA4B-F099-D192E3D7E41F</generatorID>
+<ownerDesignName>stuff</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PREDSTAVNIK_ID_kupac" id="1FCC8527-56E0-CB55-E24A-F168626A1879">
+<createdBy>Korisnik</createdBy>
+<createdTime>2023-01-26 11:45:57 UTC</createdTime>
+<generatorID>A8CD3BDB-BCFB-B763-EDA9-74AE09F9861F</generatorID>
+<ownerDesignName>stuff</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="8EB07779-8B2F-FD6A-50A6-94519647A8E0" referredColumn="8EFB4FAF-B5CD-C89A-EAB7-1F9772398E63"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="87E682B9-BE7E-0F54-9ECF-FB9AFB57052D" name="EKIPA_PK">
+<createdBy>Korisnik</createdBy>
+<createdTime>2023-01-26 11:45:57 UTC</createdTime>
+<generatorID>24804724-4D1E-3EDE-D44F-98D5B29D584C</generatorID>
+<ownerDesignName>stuff</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9FE3C03F-274D-D89B-13FA-FA4A63CE24DB"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="51CFC4C3-3118-5BFF-25D5-9EDEFA08AE57" name="EKIPA__IDX">
+<createdBy>Korisnik</createdBy>
+<createdTime>2023-01-26 11:45:57 UTC</createdTime>
+<ownerDesignName>stuff</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>A2BCB04E-1BE8-C105-1454-706D901B95D3</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="1FCC8527-56E0-CB55-E24A-F168626A1879"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="0908C5C6-A398-8896-249D-8988E9FD75D8" name="EKIPA_PREDSTAVNIK_FK">
+<createdBy>Korisnik</createdBy>
+<createdTime>2023-01-26 12:04:58 UTC</createdTime>
+<generatorID>A2BCB04E-1BE8-C105-1454-706D901B95D3</generatorID>
+<ownerDesignName>stuff</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1FCC8527-56E0-CB55-E24A-F168626A1879"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
